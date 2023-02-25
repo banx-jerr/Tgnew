@@ -1,19 +1,23 @@
 {
-  "name": "Tgnew",
- "version": "1.0.0",
+  "name": "Tgnew
+  ",
+  "version": "1.0.0",
   "description": "",
-   "scripts": {
-   "build": "echo \"No build specified\" && exit 1",
-  "test": "echo \"No test specified\" && exit 1",
-  "start": "node index.js"
-},
-"repository": {
-      "type": "git",
-      "url": "git+https://github.com/banx-jerr/Tgnew.git"
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
   },
-"author": "",
-"license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/banx-jerr/Tgnew.git"
+  },
+  "author": "",
+  "license": "ISC",
   "bugs": {
-        "url": "https://github.com/banx-jerr/Tgnew/issues"  },
-  "homepage": "https://github.com/banx-jerr/Tgnew#readme"
+    "url": "https://github.com/banx-jerr/Tgnew/issues"
+  },
+  "homepage": "https://github.com/banx-jerr/Tgnew#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
